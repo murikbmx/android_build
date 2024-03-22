@@ -343,11 +343,6 @@ ifeq ($(EMMA_INSTRUMENT),true)
   endif # EMMA_INSTRUMENT_STATIC
 endif # EMMA_INSTRUMENT
 
-ifeq (,$(DISABLE_WALLPAPER_BACKUP))
-  PRODUCT_PACKAGES += \
-    WallpaperBackup
-endif
-
 # Moving angle from vendor to system
 ifeq ($(RELEASE_ANGLE_ON_SYSTEM),true)
 PRODUCT_PACKAGES += \
