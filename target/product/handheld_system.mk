@@ -34,12 +34,9 @@ $(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 
 PRODUCT_PACKAGES += \
     android.software.window_magnification.prebuilt.xml \
-    BasicDreams \
     BlockedNumberProvider \
     BluetoothMidiService \
-    BookmarkProvider \
     BuiltInPrintService \
-    CalendarProvider \
     cameraserver \
     CameraExtensionsProxy \
     CaptivePortalLogin \
@@ -58,7 +55,6 @@ PRODUCT_PACKAGES += \
     ManagedProvisioning \
     MmsService \
     MtpService \
-    MusicFX \
     PacProcessor \
     preinstalled-packages-platform-handheld-system.xml \
     PrintRecommendationService \
